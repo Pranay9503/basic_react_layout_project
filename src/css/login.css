@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto';
+}
+.login-container{
+    background-color: indianred;
+    display: inline-block;
+    padding: 3rem 3rem 4rem 3rem;
+    border-radius: 5px;
+    margin-left: 38vw;
+    margin-top: 160px;
+    outline: 3px solid black;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    width: 250px;
+    height: 32.5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 2px solid black;
+    outline: none;
+    padding-left: 10px;
+}
+.form-input::placeholder{
+    font-size: 12px;
+    color: rgb(191, 191, 191);
+}
+.submit-btn{
+    padding: 0.4rem;
+    background-color: wheat;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.submit-container{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

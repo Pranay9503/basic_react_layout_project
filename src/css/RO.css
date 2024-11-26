@@ -1,0 +1,232 @@
+.ant-menu-submenu {
+    position: relative; 
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected) {
+    background-color: rgb(39, 118, 234);
+    color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: rgb(39, 118, 234);
+    color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-light.ant-menu-submenu-popup>.ant-menu, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+    background-color: rgb(39, 118, 234);
+}
+
+:where(.css-dev-only-do-not-override-11lehqq)[class^="ant-menu"] [class^="ant-menu"]::before, :where(.css-dev-only-do-not-override-11lehqq)[class*=" ant-menu"] [class^="ant-menu"]::before, :where(.css-dev-only-do-not-override-11lehqq)[class^="ant-menu"] [class*=" ant-menu"]::before, :where(.css-dev-only-do-not-override-11lehqq)[class*=" ant-menu"] [class*=" ant-menu"]::before{
+    background-color: rgb(39, 118, 234);
+}
+
+.ant-menu-submenu-popup {
+    border: 1px solid rgb(39, 118, 234); 
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+    background-color: rgb(39, 118, 234) !important;
+    min-width: auto; 
+    max-width: 300px; 
+    white-space: nowrap; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    pointer-events: auto;
+    padding-left: 0;
+}
+
+.ant-menu-submenu-popup::after {
+    content: '';
+    position: absolute;
+    top: 10px; 
+    left: -12px; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 8px 8px; 
+    border-color: transparent transparent rgb(39, 118, 234) transparent; /* Arrow color matching popup border */
+    transform: rotate(-90deg);
+}
+
+.ant-menu-submenu-popup::before {
+    content: '';
+    position: absolute;
+    top: 12px; 
+    left: 2px; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 6px 6px;
+    border-color: transparent transparent #fff transparent; /* Inner arrow with the same background color as the popup */
+}
+
+.ant-menu-submenu:hover .ant-menu-submenu-popup {
+    display: block;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-inline.ant-menu-root .ant-menu-item >.ant-menu-title-content, :where(.css-dev-only-do-not-override-11lehqq).ant-menu-inline.ant-menu-root .ant-menu-submenu-title >.ant-menu-title-content {
+    margin-left: 0;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper table{
+    width: auto;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-container{
+    border-start-start-radius: 0px;
+    border-start-end-radius: 0px;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container {
+    border: 2px solid #d1d3e0;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>td {
+    border-color: 2px solid #d1d3e0;
+    border-bottom: 2px solid #d1d3e0;
+    border-top-right-radius: 0; 
+    border-right: 2px solid #d1d3e0;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-thead >tr>td{
+    border-bottom: 2px solid #d1d3e0;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>td{
+    border-inline-end:2px solid #d1d3e0
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-cell, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper tfoot>tr>td{
+    padding: 10px 10px;
+}
+:where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >thead>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tbody>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>th, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-header >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-body >table >tfoot>tr>td, :where(.css-dev-only-do-not-override-11lehqq).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-summary >table >tfoot>tr>td{
+    white-space: nowrap;
+}
+.dashboard-btn{
+    padding: 10px 14px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.dashboard-btn:hover{
+    color: #40a9ff;
+}
+.upload-btn:hover{
+    color: #40a9ff;
+}
+.dashboard-selected{
+    padding: 10px 14px;
+    font-size: 12px;
+    /* background-color: rgb(36, 32, 88);
+    color: #fff;
+    border: 1px solid rgb(36, 32, 88); */
+    color: #096dd9;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.search-btn{
+    padding: 10px 14px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.search-btn:hover{
+    color: #40a9ff;
+}
+.search-selected{
+    padding: 10px 14px;
+    font-size: 12px;
+    /* background-color: rgb(36, 32, 88);
+    color: #fff;
+    border: 1px solid rgb(36, 32, 88); */
+    color: #096dd9;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.upload-btn{
+    padding: 10px 14px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.upload-selected{
+    padding: 10px 14px;
+    font-size: 12px;
+    /* background-color: rgb(36, 32, 88);
+    color: #fff;
+    border: 1px solid rgb(36, 32, 88); */
+    color: #096dd9;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.dashboard-selected {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.5s;
+  }
+  .dashboard-selected::after {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    top: 95%;
+    left: 0;
+    background: #096dd9;
+    transition: transform ease-in 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  .dashboard-selected::after {
+    transform: scaleX(0.9);
+  }
+  .search-selected {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.5s;
+  }
+  .search-selected::after {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    top: 95%;
+    left: 0;
+    background: #096dd9;
+    transition: transform ease-in 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  .search-selected::after {
+    transform: scaleX(0.9);
+  }
+  .upload-selected {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.5s;
+  }
+  .upload-selected::after {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    top: 95%;
+    left: 0;
+    background: #096dd9;
+    transition: transform ease-in 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  .upload-selected::after {
+    transform: scaleX(0.9);
+  }
+  :where(.css-dev-only-do-not-override-11lehqq).ant-empty-normal{
+    margin-block: 10px;
+  }
+  :where(.css-dev-only-do-not-override-11lehqq).ant-empty-normal .ant-empty-image{
+    height: 0;
+  }

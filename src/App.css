@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: 'Roboto';
+  background-color: rgb(242, 244, 247);
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+li{
+  list-style: none;
+}
+.home,.about,.products,.signin,.signup{
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 1.5rem;
+}
+.logo{
+  cursor: pointer;
+}
+.ant-menu-item-icon{
+  width:40px;
+}
